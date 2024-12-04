@@ -43,6 +43,7 @@ const useStorageState = (initialState) => {
 };
 
 function App() {
+  
   const [searchTerm, setSearchTerm] = useStorageState("React");
   const [stories, setStories] = React.useState(initialStories);
   const [isLoading, setIsLoading] = React.useState(false);
