@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 const InputWithLabel = ({
   id,
@@ -16,7 +16,7 @@ const InputWithLabel = ({
     }
   }, [isFocused]);
   return (
-    <>
+    <Fragment>
       <label htmlFor={id}>{children}</label>
       &nbsp;
       <input
@@ -26,7 +26,7 @@ const InputWithLabel = ({
         value={value}
         onChange={onInputChange}
       />{" "}
-    </>
+    </Fragment>
   );
 };
 
