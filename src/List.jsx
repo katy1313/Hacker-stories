@@ -1,10 +1,3 @@
-// import Item from "./Item";
-
-// function List({ list }) {
-//   return (
-//     <ul>
-//       {list.map((item) => (
-
 import Item from "./Item";
 
 function List({ list }) {
