@@ -17,9 +17,7 @@
 //       </span>
 //     </li>
 //   );
-// };
 
-// export default Item;
 const Item = ({ item, onRemoveItem }) => {
     const handleRemoveItem = () => {
       onRemoveItem(item);

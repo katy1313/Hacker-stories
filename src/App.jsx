@@ -79,28 +79,7 @@
 //   return (
 //     <div>
 //       <h1>Hello</h1>
-//       <InputWithLabel
-//         id="search"
-//         value={searchTerm}
-//         isFocused
-//         onInputChange={handleSearch}
-//       >
-//         <strong>Search:</strong>
-//       </InputWithLabel>
-      
-//       <Search search={searchTerm} onSearch={handleSearch} />
-//       <hr />
-//       {isError && <p>Something went wrong ...</p>}
-//       {isLoading ? (
-//         <p>Loading ...</p>
-//       ) : (
-//         <List list={searchedStories} onRemoveItem={handleRemoveStory} />
-//       )}
-//     </div>
-//   );
-// }
 
-// export default App;
 
 import React from "react";
 import reactLogo from "./assets/react.svg";
